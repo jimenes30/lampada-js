@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lâmpada</title>
+        <link rel="icon" href="http://img.icons8.com/cotton/000000/100/light-on.png">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body class="corpo">
+      <header class="cabecalho">
+        <a href="#"><img class="logo" src="http://img.icons8.com/cotton/000000/100/light-on.png" alt="Icone lampada acesa"></a>
+        <nav class="menu">
+          <ul class="menu__lista">
+            <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Projetos</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="principal">
+        <h1 id="titulo" class="titulo-principal">Passe o mouse ou clique</h1>
+        
+        <div class="imagem-container">
+          <img id="lampada" src="./assets/imagens/desligada.jpg" alt="Imagem Lâmpada desligada">
+        </div>
+
+        <div class="botoes">
+          <button id="botao-ligar" class="botao" type="button" onclick="lamp_on()">Ligar</button>
+          <button id="botao-desligar" class="botao" type="button" onclick="lamp_off()">Desligar</button>
+        </div>
+      </main>
+
+      <footer class="rodape">
+        <p class="rodape__paragrafo">Alfredo Jimenes</p>
+        <p class="rodape__paragrafo">&copy; Copyright 2022</p>
+      </footer>
+        
+      <script src="./assets/js/script.js"></script>
+    </body>
+</html>
